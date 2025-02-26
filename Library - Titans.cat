@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="7481-280e-b55e-7867" name="Library - Titans" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="7481-280e-b55e-7867" name="Library - Titans" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Warhound Titan" hidden="false" id="8eb5-a990-6eb0-9b41">
       <costs>
@@ -214,7 +214,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Reaver Titan" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e964-103-3eac-60ab">
+        <profile name="Murorum Ruptor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e964-103-3eac-60ab">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">14</characteristic>
@@ -365,7 +365,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Reaver volcano cannon" hidden="false" id="8cec-19a1-6e8d-90d2">
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8484-72f0-93d3-eb42"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8484-72f0-93d3-eb42"/>
               </constraints>
               <profiles>
                 <profile name="Reaver volcano cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a6fd-e778-466a-c7bb">
@@ -1033,6 +1033,236 @@
         <modifier type="set" value="Titans are visible" field="name"/>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Murorum Ruptor" hidden="false" id="5e8b-bde2-f525-85c6">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="2200"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="dbd4-63-af05-998" id="0050-adb0-0cca-4165" primary="true" name="Vehicle"/>
+        <categoryLink targetId="6dda-e157-334d-e93a" id="ea31-8bfd-9537-d1fc" primary="false" name="Walker"/>
+        <categoryLink targetId="5929-ad51-d006-e008" id="214b-5f31-bd4a-481a" primary="false" name="Titanic"/>
+        <categoryLink targetId="d666-e2c9-b6cc-5716" id="8783-669c-33b4-0fa4" primary="false" name="Towering"/>
+        <categoryLink targetId="8823-94b2-dd20-1242" id="effc-3cf5-1e02-6f34" primary="false" name="Reaver Titan"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="bdcf-dbca-6b42-fc85" primary="false" name="Character"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise" hidden="false" type="rule" id="9744-be72-1062-656e" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D6+6" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Super-Heavy Walker" hidden="false" type="rule" id="6286-3887-03bf-9667" targetId="5e13-1624-d280-418d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Damaged: 1-20 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2b73-3785-404e-055b">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Murorum Ruptor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="df1d-25c2-bf7d-b35a">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">14</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">60</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">20</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f99-42f3-df13-1c7e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks only.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="God-machine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae9e-40ce-2f16-5905">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is eligible to shoot and declare a charge in a turn in which it Fell Back.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Striding Colossus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f2e-91f0-71a2-3774">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Reaver feet" hidden="false" id="9199-c5df-1417-3015">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8a24-400c-91f9-19c6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dedd-cedf-58e5-96c9"/>
+          </constraints>
+          <profiles>
+            <profile name="Reaver feet" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="795b-568c-bb9e-7f16">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">4</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Reaver apocalypse launcher" hidden="false" id="6260-cd32-85be-9ca4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a9f2-6ea3-dcef-7bda"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93e7-a972-ecf9-ba20"/>
+          </constraints>
+          <profiles>
+            <profile name="Reaver apocalypse launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b627-fcc3-d0e0-682b">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">200&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast" hidden="false" type="rule" id="cb98-5c73-ec4a-7d67" targetId="6c1f-1cf7-ff25-c99e"/>
+            <infoLink name="Indirect Fire" hidden="false" type="rule" id="63dc-d5b0-04ff-f3da" targetId="4ddd-4e29-acdd-5e6d"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" hidden="false" id="efe9-bd27-d516-1c2b">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9dc3-cb44-edf5-9942"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6124-08f5-b082-bb57"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Reaver gatling blaster" hidden="false" id="af38-2101-b693-aaf4">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4e49-55d6-b7cf-aa48"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cc0-1f8b-4329-1870"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="3cc0-1f8b-4329-1870"/>
+              </modifiers>
+              <profiles>
+                <profile name="Reaver gatling blaster" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="14ce-c55e-ca5a-150c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">12</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Sustained Hits" hidden="false" type="rule" id="fbae-7b5f-2fdc-a2da" targetId="1897-c22c-9597-12b1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reaver laser blaster" hidden="false" id="4801-e178-056e-0766">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5287-430b-5ded-f731"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60ff-6374-78f5-f4d0"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="60ff-6374-78f5-f4d0"/>
+              </modifiers>
+              <profiles>
+                <profile name="Reaver laser blaster" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4334-98ca-331d-04f7">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">20</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" hidden="false" type="rule" id="1813-3f26-184a-3a22" targetId="6c1f-1cf7-ff25-c99e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reaver melta cannon" hidden="false" id="e071-a219-f757-0446">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2bac-d81b-7605-ede8"/>
+              </constraints>
+              <profiles>
+                <profile name="Reaver melta cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="752e-45a5-5ff4-0d41">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">13</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Melta 4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" hidden="false" type="rule" id="8592-357b-53f0-0304" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Melta" hidden="false" type="rule" id="1fb2-7de5-b2fd-1a7e" targetId="7cdb-fb99-44a9-8849"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reaver volcano cannon" hidden="false" id="4ebf-76ae-ea8d-192a">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a575-b15f-0906-1b5d"/>
+              </constraints>
+              <profiles>
+                <profile name="Reaver volcano cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="65e0-dd7a-ca46-24be">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">120&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3+1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">24</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-5</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">14</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" hidden="false" type="rule" id="fd0a-725d-1e6a-292f" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Heavy" hidden="false" type="rule" id="70d2-3853-ddb8-8b37" targetId="1202-10a8-78e9-4c67"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reaver power fist" hidden="false" id="bc3f-fe12-908c-07a1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb5f-3f58-cba6-5dab"/>
+              </constraints>
+              <profiles>
+                <profile name="➤ Reaver power fist - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="f5ed-9031-32be-94da">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">20</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">14</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="➤ Reaver power fist - sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="35b0-012f-d390-c92b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">12</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">6</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: Adeptus Titanicus" hidden="false" id="169a-d3f4-23b5-ba7"/>
@@ -1287,6 +1517,37 @@
         </modifier>
       </modifiers>
       <comment>Imperium</comment>
+    </entryLink>
+    <entryLink import="true" name="Murorum Ruptor" hidden="false" id="c9f2-d671-a117-f928" type="selectionEntry" targetId="5e8b-bde2-f525-85c6">
+      <categoryLinks>
+        <categoryLink name="Allied Units" hidden="false" id="302f-9e8b-cf21-3967" targetId="887b-ab87-92a2-20f5" primary="true"/>
+        <categoryLink name="Faction: Titanicus Traitoris" hidden="false" id="91f7-10a1-0fd0-a16a" targetId="fe43-3689-1f33-b408" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="6b04-ac6b-8e2a-fdf3" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Titanic Support" hidden="false" id="4aa5-27bb-a38b-01f4" targetId="c4de-48cd-335f-8a7f" primary="false"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="5e1c-b3db-e180-c8a7" primary="false" name="Character"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f26b-79db-80e0-3a3b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <comment>Chaos</comment>
     </entryLink>
   </entryLinks>
 </catalogue>
