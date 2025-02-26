@@ -17693,18 +17693,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
-                  <modifiers>
-                    <modifier type="set" value="0" field="b842-a16d-d63f-983a">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="a623-72b7-d34c-4c61" childId="upgrade" shared="true" id="5174-3b85-0b66-5a7d"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="0" field="249f-c8f4-760a-e0c3">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="a623-72b7-d34c-4c61" childId="upgrade" shared="true" id="c0a2-f423-74d8-1359"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Melee Weapon Option" id="a488-7c15-8a5e-e77c" hidden="false" defaultSelectionEntryId="8ffa-d63e-201-ab45">
                   <entryLinks>
@@ -17716,18 +17704,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8dee-9fe8-96c6-9926"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1e8-4c44-d0a1-7a8d"/>
                   </constraints>
-                  <modifiers>
-                    <modifier type="set" value="0" field="8dee-9fe8-96c6-9926">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="a623-72b7-d34c-4c61" childId="upgrade" shared="true" id="fbea-fccd-a0a7-7641"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="0" field="e1e8-4c44-d0a1-7a8d">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="a623-72b7-d34c-4c61" childId="upgrade" shared="true" id="a42f-730c-3092-1392"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -19835,235 +19811,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Despoiler Squad" hidden="false" id="ce9c-c574-e3ef-59ed">
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink name="Infantry" hidden="false" id="3037-ab1d-c1b5-401e" targetId="cf47-a0d7-7207-29dc" primary="true"/>
-        <categoryLink name="Grenades" hidden="false" id="dcd9-397f-909b-e094" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
-        <categoryLink name="Despoiler Squad" hidden="false" id="5082-0312-1e92-bd36" targetId="a05d-3ab0-01c1-5d4d" primary="false"/>
-        <categoryLink name="Faction: Heretic Astartes" hidden="false" id="7226-51fb-0974-31ae" targetId="1e42-dfae-cbdd-207d" primary="false"/>
-        <categoryLink name="Chaos" hidden="false" id="6a2e-5fcc-4916-ea1b" targetId="4c00-2578-faf5-6918" primary="false"/>
-      </categoryLinks>
-      <profiles>
-        <profile name="Hellblaster Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2b8c-d784-acf7-c0d0">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="For the Legion!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e580-a40e-d72b-afc3">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play. When resolving these attacks, any Hazardous tests taken for that attack are automatically passed.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Despoilers" id="fcff-e3c9-bd65-2d96" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="Despoiler Sergeant" hidden="false" id="421a-e18d-654e-224b">
-              <entryLinks>
-                <entryLink import="true" name="Close combat weapon" hidden="false" id="4829-f7d4-fd42-d955" type="selectionEntry" targetId="b12c-308b-9920-b09a">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0471-8929-f114-9f3d"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1258-d1a7-558a-497c"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d6b-f451-d1bd-73ec"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="044a-b5e1-99ab-d4a7"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Pistol Option" id="1a61-5ab9-ea02-aea1" hidden="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Bolt pistol" hidden="false" id="0c58-ac21-c818-0123" type="selectionEntry" targetId="ce4a-6df3-3c24-621b">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="735b-cb39-bf80-d913"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Plasma pistol" hidden="false" id="8fec-1409-9419-b61b" type="selectionEntry" targetId="c668-d63-5427-7e32"/>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4769-2902-4416-dfe2"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f68-4691-9433-b355"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Volkite Pistol" hidden="false" id="ee27-fea4-0b4d-eb2d">
-                      <profiles>
-                        <profile name="Neo-volkite Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="37e0-7210-1a5d-dce8">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Pistol</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Pistol" id="6867-6e99-c1b3-f610" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                        <infoLink name="Devastating Wounds" id="febb-4893-46f4-b306" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Primary Gun Option" id="f68f-a7c6-3ec2-c914" hidden="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Plasma gun" hidden="false" id="3e5f-eb21-fd3a-4c69" type="selectionEntry" targetId="8fd0-6c57-1f13-4faa"/>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="adbb-cdd4-2a81-e8e2"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42b1-437b-3b8d-8736"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Volkite Charger" hidden="false" id="88d2-c131-fc65-60f7">
-                      <profiles>
-                        <profile name="Volkite Charger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="886b-1e84-3de7-82a1">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Devastating Wounds" id="9348-8d2b-ba5f-5e9c" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Despoiler" hidden="false" id="8386-5d32-e795-b41c">
-              <constraints>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="8df7-52d9-af77-c85c"/>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="306e-015d-6979-8043"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Close combat weapon" hidden="false" id="d49b-c1c1-1a38-f033" type="selectionEntry" targetId="b12c-308b-9920-b09a">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af3b-d44f-a3ab-ac12"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1530-7ed2-f9b0-4373"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Bolt pistol" hidden="false" id="f466-e437-716e-3b0f" type="selectionEntry" targetId="ce4a-6df3-3c24-621b">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a1cf-c17d-9fc2-30af"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6871-3610-a803-bf91"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="9fe4-7369-b84f-7814" collective="true">
-                  <profiles>
-                    <profile name="➤ Plasma Gun - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a57c-9328-a7aa-2d80">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Heavy</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="➤ Plasma Gun - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f61a-6c6c-b927-6410">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Heavy, Hazardous</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d12-e39e-7295-7836"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd61-2f7d-be6e-d91d"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Hazardous" id="8940-364d-fe57-0454" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-                    <infoLink name="Heavy" id="16f4-c9a1-46f3-cf8b" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-                    <infoLink name="Assault" id="3901-538c-efab-c26c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Eradicator" hidden="false" id="d012-334f-2360-27e7">
-              <constraints>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="60a1-c08b-014b-9fce"/>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="fb31-b41e-accb-5b5a"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Close combat weapon" hidden="false" id="19ee-2c07-4113-110f" type="selectionEntry" targetId="b12c-308b-9920-b09a">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8b3-fb96-6f73-5084"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f36-de28-1207-cd18"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Bolt pistol" hidden="false" id="f70e-a8ff-d002-bb7a" type="selectionEntry" targetId="ce4a-6df3-3c24-621b">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4cb-359e-efc9-477e"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96e6-63b8-1b22-d3e8"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Volkite Charger" hidden="false" id="1ea7-58f1-ce9c-a61b">
-                  <profiles>
-                    <profile name="Volkite Charger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a7f3-b59c-98e2-f9e2">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Devastating Wounds" id="f48b-72c2-29e5-26d7" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="67c6-d530-3dbc-99e7"/>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="c6d0-3616-9f42-d3dd"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <modifiers>
-        <modifier type="set" value="230" field="51b2-306e-1021-d207">
-          <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="ce9c-c574-e3ef-59ed" childId="fcff-e3c9-bd65-2d96" shared="true" id="6536-ebc8-af0d-aa4b" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="cdab-ee57-0e2b-d660"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Dark Pacts" id="973e-47fe-0c39-fe51" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Relic Terminator Squad" hidden="false" id="82a4-360c-2b2e-cadc">
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="5fc5-8e25-2f7c-8fd7" targetId="cf47-a0d7-7207-29dc" primary="true"/>
@@ -20180,18 +19927,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
-                  <modifiers>
-                    <modifier type="set" value="0" field="e91a-c821-ef09-6fa8">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="200d-7d93-1f65-353a" childId="upgrade" shared="true" id="59a6-1aec-0584-326f"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="0" field="70fb-53f5-aef4-6a34">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="200d-7d93-1f65-353a" childId="upgrade" shared="true" id="6d15-cc96-0baf-6239"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Melee Weapon Option" id="3387-62e1-5045-7ba2" hidden="false" defaultSelectionEntryId="8ffa-d63e-201-ab45">
                   <entryLinks>
@@ -20203,18 +19938,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03b1-c884-916a-0b14"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bee4-c20c-7964-4dea"/>
                   </constraints>
-                  <modifiers>
-                    <modifier type="set" value="0" field="03b1-c884-916a-0b14">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="200d-7d93-1f65-353a" childId="upgrade" shared="true" id="7058-c2af-6b7c-f25c"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="0" field="bee4-c20c-7964-4dea">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="200d-7d93-1f65-353a" childId="upgrade" shared="true" id="fc90-8c96-9d7d-0b67"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>

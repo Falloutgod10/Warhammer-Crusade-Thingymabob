@@ -7429,20 +7429,20 @@ Celestian Sacresants and Paragon Warsuits models in that unit by 1.</descriptio
     <publication name="Codex: Adepta Sororitas" id="7d85-6d0f-57e0-5dea" hidden="false" shortName="&quot;Only 4 detachments, GW hates Sisters&quot;" publisher="&apos;Still no Lance rule on the only Lance in the game&quot;" publisherUrl="https://40ksisters.libsyn.com/" publicationDate="If you&apos;re not on the Siscord what you doing with your life?"/>
   </publications>
   <selectionEntries>
-    <selectionEntry type="model" import="true" name="Sororitas Baneblade" hidden="false" id="44e2-a019-0788-d0e5">
+    <selectionEntry type="model" import="true" name="Sororitas Baneblade" hidden="false" id="2de9-c16f-03bf-58dd">
       <categoryLinks>
-        <categoryLink name="Faction: Astra Militarum" hidden="false" id="70ed-76a5-5989-1c35" targetId="fa45-57e-930e-602b" primary="false"/>
-        <categoryLink name="Imperium" hidden="false" id="ca49-c298-8658-f127" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
-        <categoryLink name="Vehicle" hidden="false" id="aa1e-1a9e-a454-38ab" targetId="dbd4-63-af05-998" primary="true"/>
-        <categoryLink name="Titanic" hidden="false" id="b6da-7853-c12a-9003" targetId="5929-ad51-d006-e008" primary="false"/>
-        <categoryLink name="Smoke" hidden="false" id="9c70-bf9b-ec63-eb2f" targetId="6df-937-16bc-8c1a" primary="false"/>
-        <categoryLink name="Sororitas Baneblade" hidden="false" id="16f4-ba0e-a3d2-818e" targetId="a588-be14-415b-6762" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="76dd-1d95-314e-0a28" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="098e-7f8d-1ab5-a06f" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Titanic" hidden="false" id="eb4d-740d-4076-e3ed" targetId="5929-ad51-d006-e008" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="5304-e782-865d-3dbf" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Sororitas Baneblade" hidden="false" id="4679-f5f9-9335-6ece" targetId="a588-be14-415b-6762" primary="false"/>
+        <categoryLink name="Faction: Adepta Sororitas" hidden="false" id="e1f9-13d2-4cf3-8b1e" targetId="fd71-afa6-b13b-7fda" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="480"/>
       </costs>
       <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="ee0b-ee5a-1039-0e39" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="3d86-cc15-2753-7c85" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
@@ -7452,52 +7452,52 @@ Celestian Sacresants and Paragon Warsuits models in that unit by 1.</descriptio
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Coaxial autocannon" hidden="false" id="f018-66a4-4ae1-bce7" type="selectionEntry" targetId="ba24-f4a1-ae78-9675">
+        <entryLink import="true" name="Coaxial autocannon" hidden="false" id="acd6-b2bb-c189-b175" type="selectionEntry" targetId="ba24-f4a1-ae78-9675">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80e3-dfe0-ff68-498f"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1412-59dd-3ce9-cd33"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a45-68f3-c8f9-c990"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a160-591f-1fae-07b4"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Demolisher cannon" hidden="false" id="1878-3584-b7f7-bf86" type="selectionEntry" targetId="908d-2bd7-c119-e3ea">
+        <entryLink import="true" name="Demolisher cannon" hidden="false" id="ef86-7fb5-ce9f-d8e0" type="selectionEntry" targetId="908d-2bd7-c119-e3ea">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b84-b475-ab58-83ea"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2740-ad87-2a37-2def"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9eb6-86bf-6e4c-b71a"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3dcc-84a0-95d9-63e5"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Heavy stubber" hidden="false" id="8ec4-af9e-b136-d8e0" type="selectionEntry" targetId="ec09-3800-f8b9-89d1">
+        <entryLink import="true" name="Heavy stubber" hidden="false" id="8933-32a7-87fa-4a93" type="selectionEntry" targetId="ec09-3800-f8b9-89d1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd94-ad87-9c4c-2d30"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0271-a2cd-532b-f468"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d242-4e2f-cf8f-c5c9"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29fc-15bd-f2c8-2340"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Lascannon" hidden="false" id="5aa1-80c6-9389-f9a1" type="selectionEntry" targetId="a037-8f84-1cc9-29ce">
+        <entryLink import="true" name="Lascannon" hidden="false" id="4438-a3e3-46b8-69c1" type="selectionEntry" targetId="a037-8f84-1cc9-29ce">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="50b6-9fd4-eadc-71f3"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="270d-fe72-d3ad-07e6"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4189-c878-6e87-2597"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a49e-747a-c638-c9e7"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Twin heavy bolter" hidden="false" id="d908-9620-9cb0-ea64" type="selectionEntry" targetId="1ffb-39d2-e6b9-f375">
+        <entryLink import="true" name="Twin heavy bolter" hidden="false" id="38a3-d5c3-4e63-6509" type="selectionEntry" targetId="1ffb-39d2-e6b9-f375">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d700-3c4d-e804-bd15"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8a8-02a4-546b-3890"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6640-1aff-7699-ab16"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfdd-18ba-e8e8-292b"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Armoured tracks" hidden="false" id="cb7d-ca2c-b2e9-fc72" type="selectionEntry" targetId="c16b-804f-46cb-2256">
+        <entryLink import="true" name="Armoured tracks" hidden="false" id="ffcd-857b-68b0-9945" type="selectionEntry" targetId="c16b-804f-46cb-2256">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7049-9154-8c51-6a24" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0700-d8d5-6acd-595d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3de7-c41d-a63a-0a6e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e08d-ad57-af53-0938" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Wargear Options" hidden="false" id="182b-6a27-8d9e-3709" type="selectionEntryGroup" targetId="0813-5cc1-09a0-7535"/>
+        <entryLink import="true" name="Wargear Options" hidden="false" id="b2e0-7726-96f5-9858" type="selectionEntryGroup" targetId="0813-5cc1-09a0-7535"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Baneblade cannon" hidden="false" id="3afd-66f1-2cf0-7f6b">
+        <selectionEntry type="upgrade" import="true" name="Baneblade cannon" hidden="false" id="15fd-4c2c-fd8a-570d">
           <profiles>
-            <profile name="Baneblade cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1620-abeb-b4f5-7ea0">
+            <profile name="Baneblade cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8370-f886-0741-92ea">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
@@ -7506,16 +7506,16 @@ Celestian Sacresants and Paragon Warsuits models in that unit by 1.</descriptio
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Blast" id="2898-2fc9-1e25-920f" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+            <infoLink name="Blast" id="4f9e-874a-2121-7627" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8cc7-dbb5-3cb5-574b"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a177-4c69-76ae-8e5b"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ec9-1bc9-b3fd-76ef"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d24b-ea7e-c44b-9f14"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Baneblade" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a94d-a0d6-eb93-eef2">
+        <profile name="Baneblade" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ec48-9df2-73ba-ed88">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13</characteristic>
@@ -7528,15 +7528,15 @@ Celestian Sacresants and Paragon Warsuits models in that unit by 1.</descriptio
             <attribute typeId="ee2c-fa85-08b6-ad86" name="New Attribute Type"/>
           </attributes>
         </profile>
-        <profile name="Rolling Fortress" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbdd-a495-b723-3ccf">
+        <profile name="Rolling Fortress" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0a16-e568-47ff-72d4">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack is allocated to an **^^Astra Militarum^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this **^^Baneblade^^** model, that model has the Benefit of Cover against that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Damaged: 1-8 Wounds Remaining" id="b6de-324d-0f1f-3a43" hidden="false" type="profile" targetId="1934-9c67-78e2-4fd9"/>
-        <infoLink name="Deadly Demise" id="101d-5992-3ad8-03c4" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+        <infoLink name="Damaged: 1-8 Wounds Remaining" id="1832-b91d-9f78-7ea3" hidden="false" type="profile" targetId="1934-9c67-78e2-4fd9"/>
+        <infoLink name="Deadly Demise" id="c4e9-3711-f123-2171" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
