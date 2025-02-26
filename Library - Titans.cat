@@ -1107,7 +1107,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Reaver apocalypse launcher" hidden="false" id="6260-cd32-85be-9ca4">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a9f2-6ea3-dcef-7bda"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a9f2-6ea3-dcef-7bda"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93e7-a972-ecf9-ba20"/>
           </constraints>
           <profiles>
@@ -1133,12 +1133,12 @@
         <selectionEntryGroup name="Weapons" hidden="false" id="efe9-bd27-d516-1c2b">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9dc3-cb44-edf5-9942"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6124-08f5-b082-bb57"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6124-08f5-b082-bb57"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Reaver gatling blaster" hidden="false" id="af38-2101-b693-aaf4">
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4e49-55d6-b7cf-aa48"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4e49-55d6-b7cf-aa48"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cc0-1f8b-4329-1870"/>
               </constraints>
               <modifiers>
@@ -1163,7 +1163,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Reaver laser blaster" hidden="false" id="4801-e178-056e-0766">
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5287-430b-5ded-f731"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5287-430b-5ded-f731"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60ff-6374-78f5-f4d0"/>
               </constraints>
               <modifiers>
@@ -1188,7 +1188,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Reaver melta cannon" hidden="false" id="e071-a219-f757-0446">
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2bac-d81b-7605-ede8"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2bac-d81b-7605-ede8"/>
               </constraints>
               <profiles>
                 <profile name="Reaver melta cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="752e-45a5-5ff4-0d41">
@@ -1232,7 +1232,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Reaver power fist" hidden="false" id="bc3f-fe12-908c-07a1">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb5f-3f58-cba6-5dab"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="eb5f-3f58-cba6-5dab"/>
               </constraints>
               <profiles>
                 <profile name="➤ Reaver power fist - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="f5ed-9031-32be-94da">
