@@ -6125,12 +6125,12 @@ Before making your selection, if this unit made a Charge move this turn, you can
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sororitas Baneblade" hidden="false" id="d4b0-8318-8c2b-b845">
       <categoryLinks>
-        <categoryLink name="Faction: Astra Militarum" hidden="false" id="4f05-3428-4621-a9ed" targetId="fa45-57e-930e-602b" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="bbc4-b6c4-ba58-2a1c" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="1551-23c4-15f0-5ae9" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink name="Titanic" hidden="false" id="e2ba-14b5-352c-3020" targetId="5929-ad51-d006-e008" primary="false"/>
         <categoryLink name="Smoke" hidden="false" id="f796-a7a7-21d8-fbaf" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink targetId="a588-be14-415b-6762" id="294f-0609-b968-dfc4" primary="false" name="Sororitas Baneblade"/>
+        <categoryLink targetId="fd71-afa6-b13b-7fda" id="bac3-7d7d-6fb8-2d82" primary="false" name="Faction: Adepta Sororitas"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="480"/>
