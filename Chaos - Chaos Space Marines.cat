@@ -20284,7 +20284,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Despoiler Squad" hidden="false" id="cbdc-7a6c-c7c4-0056">
+    <selectionEntry type="unit" import="true" name="QWEDWQDDWQWDQQWDWD" hidden="false" id="cbdc-7a6c-c7c4-0056">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
       </costs>
