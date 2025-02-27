@@ -565,7 +565,7 @@
     <entryLink import="true" name="Cultist Firebrand" hidden="false" id="48dd-35ab-40a0-5613" type="selectionEntry" targetId="cb66-af7-2cca-1c85"/>
     <entryLink import="true" name="Cultist Mob with Firearms [Legends]" hidden="false" id="f0e2-1aec-9f03-cd0a" type="selectionEntry" targetId="478-9d24-e5c8-c6f7"/>
     <entryLink import="true" name="Nemesis Claw" hidden="false" id="f89d-80b7-730f-0d1b" type="selectionEntry" targetId="f666-1f5d-0c20-06c1"/>
-    <entryLink import="true" name="Vindicator Laser Destroyer" hidden="false" id="8a38-2e50-f162-7e82" type="selectionEntry" targetId="128d-5011-8e6-45a6">
+    <entryLink import="true" name="Vindicator Laser Destroyer [Legends]" hidden="false" id="8a38-2e50-f162-7e82" type="selectionEntry" targetId="128d-5011-8e6-45a6">
       <categoryLinks>
         <categoryLink targetId="1e42-dfae-cbdd-207d" id="4520-1678-5525-cfda" primary="false" name="Faction: Heretic Astartes"/>
         <categoryLink targetId="5e44-f9e3-7d42-e512" id="ac32-a179-7c3e-b801" primary="false" name="Vindicator Laser Destroyer"/>
@@ -19722,6 +19722,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
     <catalogueLink id="c287-6415-94ea-c4da" name="Chaos - Daemons Library" targetId="b45c-af22-788a-dfd6" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="eb31-5c8c-eacf-b046" name="Library - Astartes Heresy Legends" targetId="ac3b-689c-4ad4-70cb" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Library - Titans" id="e38d-6f72-2f93-b830" targetId="7481-280e-b55e-7867" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Solar Auxilia Library" id="6694-6504-b74c-d9a1" targetId="eb90-7bb0-63af-4b80" importRootEntries="true"/>
   </catalogueLinks>
   <infoLinks>
     <infoLink name="Psychic" hidden="false" type="rule" id="f8a6-57a0-d186-247f" targetId="e9c4-2bb8-12ee-cd1b"/>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="eb90-7bb0-63af-4b80" name="Chaos - Solar Auxilia Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="31" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType name="Orders" id="aa5e-39c4-788c-4459" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Orders" id="035f-d807-149a-530d"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry name="Regiment" id="e487-9561-282e-2a3a" hidden="false"/>
+    <categoryEntry name="Platoon" id="a48f-afe3-ab6c-63b0" hidden="false"/>
+    <categoryEntry name="Squadron" id="1858-3db0-c0c3-3bd2" hidden="false"/>
+    <categoryEntry name="Selucid Thorakite" id="27d0-69f1-3667-3e38" hidden="false"/>
+    <categoryEntry name="Damned" id="2ad7-a39c-4b60-33d3" hidden="false"/>
+    <categoryEntry name="Leman Russ Strike Squadron" id="3572-3091-3a63-cca5" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Solar Auxilia Vehicle Armory" id="7460-6a3a-5dda-f773" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Demolisher battle cannon" hidden="false" id="9ac8-b2b3-1081-01dd" type="selectionEntry" targetId="d25f-5257-0403-02fd"/>
+        <entryLink import="true" name="Volkite Macro-Saker" hidden="false" id="d3d2-3317-6852-3fe9" type="selectionEntry" targetId="656c-9885-0581-3620"/>
+        <entryLink import="true" name="Executioner plasma cannon" hidden="false" id="fdc0-3509-71aa-0a70" type="selectionEntry" targetId="b16c-f537-9e1f-f2c6"/>
+        <entryLink import="true" name="Vanquisher battle cannon" hidden="false" id="26d7-27e7-3dc2-44a9" type="selectionEntry" targetId="da62-4375-43f2-3770"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Wargear Options" id="e4af-f4a7-5971-5adb" hidden="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Lascannon" id="d862-9e24-0c0e-62c9" hidden="false" defaultSelectionEntryId="7b2f-1a9b-4188-dd21" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43ff-4b94-c23c-3514"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7249-f66b-07b8-4feb"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Lascannon" hidden="false" id="a0df-c469-ce39-35c3" type="selectionEntry" targetId="e1fc-f5da-7bb5-ff7f"/>
+            <entryLink import="true" name="Heavy bolter" hidden="false" id="4c17-0cf5-f59b-0e97" type="selectionEntry" targetId="5552-36ca-e8b0-d3bb"/>
+            <entryLink import="true" name="Heavy flamer" hidden="false" id="1a4c-1201-9841-0620" type="selectionEntry" targetId="b3e2-60b8-199d-130c"/>
+            <entryLink import="true" name="Autocannon" hidden="false" id="e65f-3f86-ce13-3cc6" type="selectionEntry" targetId="562c-d879-2cfc-65d6"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Hunter-killer missile" hidden="false" id="1c7e-ce6e-5a19-eddf" type="selectionEntry" targetId="5be4-4eda-9871-1231" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4684-12a9-e427-b5a6"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Pintle Mount" hidden="false" id="ee2c-0416-47f6-7f94" type="selectionEntryGroup" targetId="b637-6543-319d-0542" sortIndex="4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a6a-53ff-e1d4-d55b"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <comment>Leman Russ</comment>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Pintle Mount" id="b637-6543-319d-0542" hidden="false" defaultSelectionEntryId="none">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="943e-bb83-80b2-a20a"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Multi-laser" hidden="false" id="c7fb-babd-ae5b-b648" type="selectionEntry" targetId="21ff-eba5-30a9-3f62"/>
+        <entryLink import="true" name="Heavy stubber" hidden="false" id="51e9-5895-7bbf-75eb" type="selectionEntry" targetId="2a18-fc5f-d572-858e"/>
+        <entryLink import="true" name="Heavy flamer" hidden="false" id="2aa5-35b5-9b7f-4002" type="selectionEntry" targetId="b3e2-60b8-199d-130c"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Demolisher battle cannon" hidden="false" id="d25f-5257-0403-02fd">
+      <profiles>
+        <profile name="Demolisher battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3834-e8b7-db33-12ae">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast" id="7bcc-8526-f21c-e05d" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite Macro-Saker" hidden="false" id="656c-9885-0581-3620">
+      <profiles>
+        <profile name="Volkite Macro-Saker" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d951-c2d7-a7d4-56f1">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">45&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ignores Cover" id="3335-2da1-ca3c-5f3f" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+        <infoLink name="Devastating Wounds" id="4abb-b5fd-c8c7-61bd" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Executioner plasma cannon" hidden="false" id="b16c-f537-9e1f-f2c6">
+      <profiles>
+        <profile name="➤ Executioner plasma cannon - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f5e9-5591-bbff-f5cc">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="➤ Executioner plasma cannon - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3d34-9908-3246-ae40">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Hazardous" id="d3ed-af8b-7a07-7a26" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+        <infoLink name="Blast" id="b5ab-bbca-8530-4acf" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vanquisher battle cannon" hidden="false" id="da62-4375-43f2-3770">
+      <profiles>
+        <profile name="Vanquisher battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4c32-4100-ad9f-c20d">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" id="ea32-965c-8cc4-db8b" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Leman Russ Strike Squadron" hidden="false" id="87b8-c7be-b7eb-65b0">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="459e-677c-7504-5575" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="264d-dd3f-a59d-4182" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink targetId="3572-3091-3a63-cca5" id="b064-37e9-0fc7-9901" primary="false" name="Leman Russ Strike Squadron"/>
+        <categoryLink targetId="1858-3db0-c0c3-3bd2" id="09c0-463d-da23-1b85" primary="false" name="Squadron"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="2f9f-cd90-77e4-fffd" primary="false" name="Chaos"/>
+        <categoryLink targetId="4026-8a3e-9922-eec" id="bd14-803d-6913-272b" primary="false" name="Damned"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="8ebd-be0c-0444-9cea" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff90-ad99-ef40-37e6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="489d-c366-561e-1017">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Wargear Options" hidden="false" id="c444-159d-5451-7a89" type="selectionEntryGroup" targetId="e4af-f4a7-5971-5adb"/>
+        <entryLink import="true" name="Armoured tracks" hidden="false" id="36fc-2f7f-7066-384b" type="selectionEntry" targetId="0ae6-e2f0-c9f1-dcf1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59ec-413f-7c3e-3e07"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fe0-2c19-f511-99ec"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="0fee-14f9-bebf-1a06" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Damaged: 1-4 Wounds Remaining" id="7fc5-f819-3779-078a" hidden="false" type="profile" targetId="cb77-e1f1-dafb-26e8"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret Weapon" id="19d4-ef52-5d7f-e824" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Leman Russ battle cannon" hidden="false" id="e20e-15ea-af5f-c541" type="selectionEntry" targetId="a404-eba2-cd62-a3a9"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="092f-e242-51cf-f2f2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a133-793b-b205-4c9b"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Vanquisher battle cannon" hidden="false" id="853f-7de3-2d8d-6f17">
+              <profiles>
+                <profile name="Vanquisher battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0369-256f-3de8-aeeb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Heavy" id="c27f-6d66-253a-c1ed" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hunter-killer missile" hidden="false" id="5be4-4eda-9871-1231">
+      <profiles>
+        <profile name="Hunter-killer missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="bc6a-f035-99ef-8806">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="One Shot" id="32cd-aab3-6fd9-d1a8" hidden="false" type="rule" targetId="cd26-1611-860a-91e4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="0ae6-e2f0-c9f1-dcf1">
+      <profiles>
+        <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ffa7-b0b6-0399-bb0a">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>S7</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leman Russ battle cannon" hidden="false" id="a404-eba2-cd62-a3a9">
+      <profiles>
+        <profile name="Leman Russ battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9dc6-cd14-d55e-04ae">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast" id="9fe1-dcbe-bda3-1d7d" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="e1fc-f5da-7bb5-ff7f">
+      <profiles>
+        <profile name="Lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="17d3-1e1b-d6d7-8a96">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="5552-36ca-e8b0-d3bb">
+      <profiles>
+        <profile name="Heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="090f-6ac1-9af7-e547">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Sustained Hits" id="4d2d-f7b6-6981-8737" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="b3e2-60b8-199d-130c">
+      <profiles>
+        <profile name="Heavy flamer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="810d-9f37-7bec-afb8">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ignores Cover" id="8344-0fcc-c97a-ccde" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+        <infoLink name="Torrent" id="2bdb-5b21-a2a0-29b7" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="562c-d879-2cfc-65d6">
+      <profiles>
+        <profile name="Autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="627f-0f8d-9846-9df9">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy stubber" hidden="false" id="2a18-fc5f-d572-858e">
+      <profiles>
+        <profile name="Heavy stubber" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="41da-17d8-5c0b-14e8">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rapid Fire" id="1fec-938b-2ead-d9a6" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Multi-laser" hidden="false" id="21ff-eba5-30a9-3f62">
+      <profiles>
+        <profile name="Multi-laser" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4a9d-9dff-e792-1a82">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Damaged: 1-4 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb77-e1f1-dafb-26e8">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

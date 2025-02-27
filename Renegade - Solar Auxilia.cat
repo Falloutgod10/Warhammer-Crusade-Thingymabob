@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="0074-22a6-cae9-69dc" name="Renegade - Solar Auxilia" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="31" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Chaos - Solar Auxilia Library" id="237b-2c6b-37d0-e29c" importRootEntries="true" targetId="eb90-7bb0-63af-4b80"/>
+  </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Leman Russ Strike Squadron" hidden="false" id="0ccc-47db-bf97-e269">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Faction: Astra Militarum" hidden="false" id="9963-92fd-ec6c-b258" targetId="fa45-57e-930e-602b" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="7bcd-9895-7e11-05d1" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="eccd-bac6-81b1-4267" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="ebb6-f4b2-22b2-b624" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Leman Russ Strike Squadron" hidden="false" id="fe3a-1a0a-3b67-bd9d" targetId="3572-3091-3a63-cca5" primary="false"/>
+        <categoryLink name="Squadron" hidden="false" id="261c-096b-af61-119a" targetId="1858-3db0-c0c3-3bd2" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="29df-8b00-99ec-98d9" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2848-05e6-3d8f-bf85">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="91f1-5ad9-4311-5214">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Wargear Options" hidden="false" id="4ad2-9265-ca11-76a0" type="selectionEntryGroup" targetId="e4af-f4a7-5971-5adb"/>
+        <entryLink import="true" name="Armoured tracks" hidden="false" id="4bd3-54ee-92c8-7312" type="selectionEntry" targetId="0ae6-e2f0-c9f1-dcf1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af3f-8f76-38ea-eb51"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a843-3cd7-e3ff-89e5"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="5328-45b4-d31d-a294" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Damaged: 1-4 Wounds Remaining" id="f642-eaa5-7678-19d5" hidden="false" type="profile" targetId="cb77-e1f1-dafb-26e8"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret Weapon" id="a65a-c361-50f3-fd6a" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Leman Russ battle cannon" hidden="false" id="9f2f-6639-6816-4e32" type="selectionEntry" targetId="a404-eba2-cd62-a3a9"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cac9-f76c-60db-284b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d58a-fa07-527d-a1d4"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Vanquisher battle cannon" hidden="false" id="e988-b633-7866-13cd">
+              <profiles>
+                <profile name="Vanquisher battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="bbfc-344a-b98a-1945">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Heavy" id="78ec-1e79-a7cf-25f1" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
