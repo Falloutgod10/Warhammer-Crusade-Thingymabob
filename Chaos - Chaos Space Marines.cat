@@ -18405,99 +18405,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Leman Russ Strike Squadron" hidden="false" id="a919-4f3f-21b6-d27c">
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink name="Vehicle" hidden="false" id="f1db-36ca-3f84-f603" targetId="dbd4-63-af05-998" primary="true"/>
-        <categoryLink name="Smoke" hidden="false" id="4cf5-c592-141f-b8f1" targetId="6df-937-16bc-8c1a" primary="false"/>
-        <categoryLink name="Chaos" hidden="false" id="2f9f-cd90-77e4-fffd" targetId="4c00-2578-faf5-6918" primary="false"/>
-        <categoryLink name="Damned" hidden="false" id="4267-8573-802a-a776" targetId="4026-8a3e-9922-eec" primary="false"/>
-        <categoryLink targetId="742d-c177-33ee-2618" id="a137-909d-05ff-3e0c" primary="false" name="Leman Russ Strike Squadron"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="6280-da31-d686-4506" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1570-5aaf-8e34-4ab1"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3447-b7a8-06a5-ad7a"/>
-      </constraints>
-      <profiles>
-        <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ad63-be28-4167-a8eb">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="dd74-ef36-e5a9-b7fe">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Wargear Options" hidden="false" id="c71f-871c-ce6c-f254" type="selectionEntryGroup" targetId="c854-7fe6-3bf2-71b2"/>
-        <entryLink import="true" name="Armoured tracks" hidden="false" id="5fb0-d409-991a-b767" type="selectionEntry" targetId="56d1-8176-db80-0ad8">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5161-8cb8-81a3-6668"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f799-2f55-39e3-a120"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Coaxial autocannon" hidden="false" id="7e63-1746-b041-15ff" type="selectionEntry" targetId="85d4-9207-e58d-f47a">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="537c-e164-6c98-1a19"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b59-10f8-8e66-274f"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Deadly Demise" id="f6b5-d29d-fcd6-72f1" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
-          <modifiers>
-            <modifier type="append" value="D3" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Damaged: 1-4 wounds remaining" id="1bc2-8626-f1b3-7e7f" hidden="false" type="profile" targetId="d44e-2f5-cadf-9eb"/>
-        <infoLink name="Dark Pacts" id="f415-23a5-a149-ba4a" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
-      </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Turret Weapon" id="9d42-c697-a7ef-fcb9" hidden="false">
-          <entryLinks>
-            <entryLink import="true" name="Leman Russ battle cannon" hidden="false" id="1601-7a56-b416-ddc6" type="selectionEntry" targetId="24cd-aa27-9571-48c0"/>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a5d-8fa9-5d67-0cd6"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2854-6098-484b-9dcf"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vanquisher battle cannon" hidden="false" id="3385-1dab-ca12-c1b4">
-              <profiles>
-                <profile name="Vanquisher battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="874a-fe58-e32a-8a4c">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Heavy" id="5690-df64-54ca-cd6b" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Leman Russ battle cannon" hidden="false" id="24cd-aa27-9571-48c0">
       <profiles>
         <profile name="Leman Russ battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3616-5454-7612-0b18">
@@ -18516,9 +18423,9 @@ You can attach this model to one of the above units even if one other CHARACTER 
         <infoLink name="Blast" id="505c-372d-3545-c904" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Leman Russ Assault Squadron" hidden="false" id="6fa7-45d9-a8e2-c50f">
+    <selectionEntry type="unit" import="true" name="Leman Russ Assault Squadron" hidden="false" id="6fa7-45d9-a8e2-c50f">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -18533,8 +18440,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4748-b6e6-0819-9246" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f7a8-c240-de3f-3912"/>
-        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9b13-b610-5b45-85c3"/>
       </constraints>
       <profiles>
         <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e21-9930-264e-7f3e">
@@ -18542,26 +18447,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fb02-3d2e-409c-0642">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Wargear Options" hidden="false" id="db6e-4874-c6d2-d8a6" type="selectionEntryGroup" targetId="c854-7fe6-3bf2-71b2"/>
-        <entryLink import="true" name="Armoured tracks" hidden="false" id="a9c4-bd09-6bae-fe20" type="selectionEntry" targetId="56d1-8176-db80-0ad8">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fcb-e56c-0a2c-98c0"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dae-1b1d-42b4-7262"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <infoLinks>
         <infoLink name="Deadly Demise" id="3a23-ecbf-e510-9a31" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
           <modifiers>
@@ -18572,60 +18458,100 @@ You can attach this model to one of the above units even if one other CHARACTER 
         <infoLink name="Dark Pacts" id="90cb-ddba-1c6f-266f" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Turret Weapon" id="c9c8-5c85-5d64-0cbe" hidden="false">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ee8-a885-27ce-508b"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4552-ba98-50e6-f8c2"/>
-          </constraints>
+        <selectionEntryGroup name="1-3 Leman Russ Battle Tanks" id="57d7-e1e7-48a6-4047" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Volkite Macro-Saker" hidden="false" id="1471-3400-e8b3-8a8a">
+            <selectionEntry type="upgrade" import="true" name="Leman Russ Battle Tank" hidden="false" id="7046-a824-b997-505b">
+              <entryLinks>
+                <entryLink import="true" name="Armoured tracks" hidden="false" id="dcec-db66-183d-aebf" type="selectionEntry" targetId="56d1-8176-db80-0ad8">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="674c-7d94-40fd-f594"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e83-55c0-e1c4-e9f6"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Wargear Options" hidden="false" id="08a6-7f68-8262-c140" type="selectionEntryGroup" targetId="c854-7fe6-3bf2-71b2"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Turret Weapon" id="0901-9a37-3e0b-1c1b" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df7f-14bc-f69c-ae53"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0920-e5ad-a88c-a3e9"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Volkite Macro-Saker" hidden="false" id="d18a-a0fa-31c0-61c8">
+                      <profiles>
+                        <profile name="Volkite Macro-Saker" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="af3f-3acc-3363-73a7">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">45&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Ignores Cover</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Ignores Cover" id="da0d-c0c3-05cc-18d4" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                        <infoLink name="Devastating Wounds" id="9eaf-b110-f308-f167" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Executioner plasma cannon" hidden="false" id="7047-12bd-cb55-0e97">
+                      <profiles>
+                        <profile name="➤ Executioner plasma cannon - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6225-8ef9-7704-9f3b">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="➤ Executioner plasma cannon - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1825-97df-8c30-a292">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Hazardous" id="6898-84a2-69df-a064" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                        <infoLink name="Blast" id="e160-25d7-cdc5-7f97" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <profiles>
-                <profile name="Volkite Macro-Saker" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9339-09ae-cd1b-4fa6">
+                <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fb02-3d2e-409c-0642">
                   <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">45&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Ignores Cover</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Ignores Cover" id="c9b0-55ef-0de5-6367" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
-                <infoLink name="Devastating Wounds" id="f332-747d-6201-213a" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Executioner plasma cannon" hidden="false" id="7cd5-2099-1a23-cee6">
-              <profiles>
-                <profile name="➤ Executioner plasma cannon - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="76f2-b6f5-d284-16e9">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="➤ Executioner plasma cannon - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0f82-a6dc-0b27-c173">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Hazardous" id="1af3-ba27-cd20-edf0" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-                <infoLink name="Blast" id="54dd-64b3-9eea-fde4" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="91fb-bc6a-0bb7-70bd"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9e9c-9338-8d42-adb4"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -18780,6 +18706,118 @@ You can attach this model to one of the above units even if one other CHARACTER 
         </profile>
       </profiles>
       <comment>S7</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Leman Russ Strike Squadron" hidden="false" id="69cb-95b3-c58f-9340">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="2c22-6465-9b6a-09d8" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="13a8-20fc-b001-d468" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="5594-3ef6-ef7d-df91" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Damned" hidden="false" id="3d8a-b756-ca70-b21d" targetId="4026-8a3e-9922-eec" primary="false"/>
+        <categoryLink name="Leman Russ Assault Squadron" hidden="false" id="5727-66e7-88d6-e904" targetId="421e-73ac-1cda-303e" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="a37f-daa1-edfd-6175" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7b99-00ed-5f3c-80ad">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="dedc-6dbf-a013-f727" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Damaged: 1-4 wounds remaining" id="bcf3-6a5d-31e7-cd47" hidden="false" type="profile" targetId="d44e-2f5-cadf-9eb"/>
+        <infoLink name="Dark Pacts" id="47b9-3913-515a-d36f" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="1-3 Leman Russ Battle Tanks" id="e712-d2b1-df82-2105" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Leman Russ Battle Tank" hidden="false" id="8443-9aef-768c-090b">
+              <entryLinks>
+                <entryLink import="true" name="Armoured tracks" hidden="false" id="bea3-aac4-f22e-f13a" type="selectionEntry" targetId="56d1-8176-db80-0ad8">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c67-c389-9447-5f1b"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8345-8c08-ef4d-eeb8"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Wargear Options" hidden="false" id="2513-a503-d2c3-144f" type="selectionEntryGroup" targetId="c854-7fe6-3bf2-71b2"/>
+                <entryLink import="true" name="Coaxial autocannon" hidden="false" id="f0c5-9e5f-ef63-8a3f" type="selectionEntry" targetId="85d4-9207-e58d-f47a">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b1bb-d510-f46b-616d"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3b4-180b-12e9-2f73"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Turret Weapon" id="c01c-64b5-24cf-5fdd" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Leman Russ battle cannon" hidden="false" id="f90a-d746-9f81-781c" type="selectionEntry" targetId="24cd-aa27-9571-48c0"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e11-79ae-f5f0-85c2"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4a9-2093-e616-0fbb"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Vanquisher battle cannon" hidden="false" id="64ee-57f5-7870-d285">
+                      <profiles>
+                        <profile name="Vanquisher battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="02bd-b566-dcf4-f762">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Heavy" id="d788-6744-3110-7bee" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8ff4-4bce-7543-532f">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a4ac-c7ec-68cf-187d"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9192-02ee-38c7-5f1b"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -20947,6 +20985,252 @@ You can attach this model to one of the above units even if one other CHARACTER 
       <infoLinks>
         <infoLink name="Dark Pacts" id="798b-3428-7ed8-6521" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Leman Russ Assault Squadron" hidden="false" id="e629-563e-5965-949b">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="c6ef-ebae-e763-c065" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="68f9-56c2-be22-6737" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="1728-1574-c495-74ce" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Damned" hidden="false" id="54cd-1289-3095-f489" targetId="4026-8a3e-9922-eec" primary="false"/>
+        <categoryLink name="Leman Russ Assault Squadron" hidden="false" id="653f-5084-420c-3673" targetId="421e-73ac-1cda-303e" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0094-858a-9aa5-a482" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e96f-2319-b731-c812">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="6625-1ba4-a0b5-a33d" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Damaged: 1-4 wounds remaining" id="9bca-971c-2e22-69f6" hidden="false" type="profile" targetId="d44e-2f5-cadf-9eb"/>
+        <infoLink name="Dark Pacts" id="f5cd-af12-e280-9b8b" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="1-3 Leman Russ Battle Tanks" id="8959-c944-9a73-5a6e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Leman Russ Battle Tank" hidden="false" id="3035-7001-e8f6-df8a">
+              <entryLinks>
+                <entryLink import="true" name="Armoured tracks" hidden="false" id="1e6c-9277-587b-4087" type="selectionEntry" targetId="56d1-8176-db80-0ad8">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a53a-8bd8-fbd8-5fa1"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="577c-3687-fb22-4c85"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Wargear Options" hidden="false" id="c4f1-a3a4-2496-18f0" type="selectionEntryGroup" targetId="c854-7fe6-3bf2-71b2"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Turret Weapon" id="0ff1-648f-4728-7ade" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b81-0adf-d179-bb6c"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34e4-ed6f-5333-89ad"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Volkite Macro-Saker" hidden="false" id="b9fe-38f9-117e-034b">
+                      <profiles>
+                        <profile name="Volkite Macro-Saker" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3b6f-085a-c65e-1e2c">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">45&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Ignores Cover</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Ignores Cover" id="4dfc-9a54-4387-4c9d" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                        <infoLink name="Devastating Wounds" id="b4d1-7812-560a-224c" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Executioner plasma cannon" hidden="false" id="63d6-c3ce-7a17-2b5e">
+                      <profiles>
+                        <profile name="➤ Executioner plasma cannon - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4cfb-c4a2-eb1b-5852">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="➤ Executioner plasma cannon - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9d23-f0dc-021a-acf1">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Hazardous" id="3bae-ff4d-a46f-f8ec" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                        <infoLink name="Blast" id="8b21-f6a1-5a94-2a61" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4cf4-488d-c2bc-8822">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe88-cadc-7c6a-8d14"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a646-7c0e-fe6f-308b"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Leman Russ Strike Squadron" hidden="false" id="ccd4-9ac8-8169-6b1d">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="8ef7-bb37-3a33-999e" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="2e8d-f44b-2c21-1683" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="144c-869d-f35f-1b1c" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Damned" hidden="false" id="5418-a618-3f55-fb26" targetId="4026-8a3e-9922-eec" primary="false"/>
+        <categoryLink name="Leman Russ Assault Squadron" hidden="false" id="ac76-ddab-0190-1ba9" targetId="421e-73ac-1cda-303e" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c19a-0366-9aa9-7c76" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a0cb-2dc1-f6a4-8b03">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="e03d-7838-c35d-19b7" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Damaged: 1-4 wounds remaining" id="c243-8594-1e51-be6f" hidden="false" type="profile" targetId="d44e-2f5-cadf-9eb"/>
+        <infoLink name="Dark Pacts" id="cf36-acc5-ed32-c3d4" hidden="false" type="rule" targetId="fd69-68cc-5d63-c84d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="1-3 Leman Russ Battle Tanks" id="5f4d-67a3-26a8-5ba9" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Leman Russ Battle Tank" hidden="false" id="431b-3250-1bb7-be3d">
+              <entryLinks>
+                <entryLink import="true" name="Armoured tracks" hidden="false" id="7b5d-d72c-c279-1d35" type="selectionEntry" targetId="56d1-8176-db80-0ad8">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="91d2-b854-3a2e-e638"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="694c-965e-c1a5-d14e"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Wargear Options" hidden="false" id="d990-1edf-d67e-8144" type="selectionEntryGroup" targetId="c854-7fe6-3bf2-71b2"/>
+                <entryLink import="true" name="Coaxial autocannon" hidden="false" id="76ea-b0c7-1c66-28ba" type="selectionEntry" targetId="85d4-9207-e58d-f47a">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6eff-29ba-11ca-3312"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1d5-5294-9342-0e5c"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Turret Weapon" id="8b76-2609-d6a4-37bc" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Leman Russ battle cannon" hidden="false" id="ebbe-aee7-79e6-b2db" type="selectionEntry" targetId="24cd-aa27-9571-48c0"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="825d-98b5-eef9-320d"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a827-b4a6-53d4-d55b"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Vanquisher battle cannon" hidden="false" id="3cfe-1ade-2856-463b">
+                      <profiles>
+                        <profile name="Vanquisher battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a257-f356-674d-7c14">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Heavy" id="2ce9-990f-85c3-2cb7" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Leman Russ Battle Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3509-3298-3133-f033">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32db-414f-9948-d308"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8cc2-4495-bc9a-e758"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
 </catalogue>
