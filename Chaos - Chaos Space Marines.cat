@@ -20238,7 +20238,6 @@ You can attach this model to one of the above units even if one other CHARACTER 
   </sharedInfoGroups>
   <catalogueLinks>
     <catalogueLink id="b11f-30ad-a74b-1172" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="c287-6415-94ea-c4da" name="Chaos - Daemons Library" targetId="b45c-af22-788a-dfd6" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="eb31-5c8c-eacf-b046" name="Library - Astartes Heresy Legends" targetId="ac3b-689c-4ad4-70cb" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Library - Titans" id="e38d-6f72-2f93-b830" targetId="7481-280e-b55e-7867" importRootEntries="true"/>
   </catalogueLinks>
@@ -21000,6 +20999,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
         <categoryLink name="Chaos" hidden="false" id="1728-1574-c495-74ce" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Damned" hidden="false" id="54cd-1289-3095-f489" targetId="4026-8a3e-9922-eec" primary="false"/>
         <categoryLink name="Leman Russ Assault Squadron" hidden="false" id="653f-5084-420c-3673" targetId="421e-73ac-1cda-303e" primary="false"/>
+        <categoryLink targetId="1e42-dfae-cbdd-207d" id="b2a8-a484-6fec-2ecc" primary="false" name="Faction: Heretic Astartes"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0094-858a-9aa5-a482" includeChildSelections="true" includeChildForces="true"/>
@@ -21134,6 +21134,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
         <categoryLink name="Chaos" hidden="false" id="144c-869d-f35f-1b1c" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Damned" hidden="false" id="5418-a618-3f55-fb26" targetId="4026-8a3e-9922-eec" primary="false"/>
         <categoryLink name="Leman Russ Assault Squadron" hidden="false" id="ac76-ddab-0190-1ba9" targetId="421e-73ac-1cda-303e" primary="false"/>
+        <categoryLink targetId="1e42-dfae-cbdd-207d" id="b1d7-e738-30fd-eba0" primary="false" name="Faction: Heretic Astartes"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c19a-0366-9aa9-7c76" includeChildSelections="true" includeChildForces="true"/>
