@@ -21330,7 +21330,7 @@ You can attach this model to one of the above units even if one other CHARACTER 
     <selectionEntry type="unit" import="true" name="Iron Circle Maniple" hidden="false" id="32eb-d022-3e7b-31fe">
       <categoryLinks>
         <categoryLink name="Grenades" hidden="false" id="d0b7-7fe8-fc1b-a28f" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
-        <categoryLink name="Vehicle" hidden="false" id="6f75-495d-8d7c-6d0c" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="6f75-495d-8d7c-6d0c" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink name="Chaos" hidden="false" id="a85e-295e-908c-c571" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Faction: Heretic Astartes" hidden="false" id="87a2-8841-823f-9308" targetId="1e42-dfae-cbdd-207d" primary="false"/>
         <categoryLink name="Domitar-Ferrum" hidden="false" id="0438-42aa-97ff-2dd6" targetId="b4e2-4242-ed50-aed2" primary="false"/>
