@@ -7541,6 +7541,7 @@ Celestian Sacresants and Paragon Warsuits models in that unit by 1.</descriptio
             <modifier type="append" value="D6+2" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Acts of Faith" id="c572-d452-0e8c-6881" hidden="false" type="rule" targetId="7ef7-dca6-e2ea-ecc8"/>
       </infoLinks>
     </selectionEntry>
   </selectionEntries>
