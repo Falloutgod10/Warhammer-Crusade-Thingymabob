@@ -70,13 +70,9 @@
         <entryLink import="true" name="Warlord" hidden="false" id="78bd-4da2-3e64-7ac4" type="selectionEntry" targetId="581a-c238-bcf5-7e22"/>
       </entryLinks>
     </entryLink>
-    <entryLink import="true" name="Warmaster Titan" hidden="false" id="0c51-e630-b9eb-9d14" type="selectionEntry" targetId="8b62-4cc4-3767-28d3">
-      <categoryLinks>
-        <categoryLink name="Faction: Titanicus Traitoris" hidden="false" id="497c-f6e7-7c3c-a743" targetId="fe43-3689-1f33-b408" primary="false"/>
-        <categoryLink name="Chaos" hidden="false" id="a8a8-98a0-4864-f260" targetId="4c00-2578-faf5-6918" primary="false"/>
-      </categoryLinks>
+    <entryLink import="true" name="Warmaster Titan" hidden="false" id="c998-b43f-7bbb-6500" type="selectionEntry" targetId="8b62-4cc4-3767-28d3">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="9845-9c4d-e792-f43f" type="selectionEntry" targetId="581a-c238-bcf5-7e22"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="5a4a-5958-2146-803d" type="selectionEntry" targetId="581a-c238-bcf5-7e22"/>
       </entryLinks>
     </entryLink>
   </entryLinks>
