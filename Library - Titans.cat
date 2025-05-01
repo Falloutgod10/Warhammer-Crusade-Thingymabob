@@ -1402,6 +1402,9 @@
               <infoLinks>
                 <infoLink name="Anti-" id="9511-3885-d4c1-4f0a" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="0" field="11c4-4fcb-f52c-5957"/>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ardes-defensor Bombard Turrets" hidden="false" id="c214-2f8d-aecb-81b9">
               <constraints>
@@ -1454,17 +1457,11 @@
               <infoLinks>
                 <infoLink name="Sustained Hits" id="622a-6102-814e-e97c" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
               </infoLinks>
-              <modifiers>
-                <modifier type="set" value="0" field="4570-d45f-3551-2daf"/>
-              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warhound plasma blastgun" hidden="false" id="b7f9-e076-a4e3-4feb">
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dd2c-5130-26f6-929e"/>
               </constraints>
-              <modifiers>
-                <modifier type="set" value="0" field="f73f-dec1-9a45-7783"/>
-              </modifiers>
               <profiles>
                 <profile name="➤ Warhound plasma blastgun - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4316-7a8e-8440-78e2">
                   <characteristics>
@@ -1515,6 +1512,9 @@
               <infoLinks>
                 <infoLink name="Blast" id="5d91-2475-9036-b4a5" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="0" field="34bc-762a-aca7-1e98"/>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warhound inferno gun" hidden="false" id="6775-e3b4-1924-a764">
               <constraints>
