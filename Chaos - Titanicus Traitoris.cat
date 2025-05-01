@@ -11,7 +11,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Library - Titans" id="e771-d190-6840-8e9" targetId="7481-280e-b55e-7867" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Titans" id="e771-d190-6840-8e9" targetId="7481-280e-b55e-7867" importRootEntries="false"/>
     <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="f54f-b211-f992-f256" targetId="b45c-af22-788a-dfd6" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="ba56-2301-e237-f162" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
   </catalogueLinks>
@@ -68,6 +68,15 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="78bd-4da2-3e64-7ac4" type="selectionEntry" targetId="581a-c238-bcf5-7e22"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warmaster Titan" hidden="false" id="9c41-151a-e3bb-c16f" type="selectionEntry" targetId="8b62-4cc4-3767-28d3">
+      <categoryLinks>
+        <categoryLink name="Faction: Titanicus Traitoris" hidden="false" id="9e7e-f9e1-b276-da80" targetId="fe43-3689-1f33-b408" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="858e-4006-8746-d4ff" targetId="4c00-2578-faf5-6918" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="fc35-1aa7-a98a-320c" type="selectionEntry" targetId="581a-c238-bcf5-7e22"/>
       </entryLinks>
     </entryLink>
   </entryLinks>
