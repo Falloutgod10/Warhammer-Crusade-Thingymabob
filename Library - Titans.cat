@@ -1141,9 +1141,9 @@
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+3</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">20</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-5</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">10</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
                   </characteristics>
                 </profile>
@@ -1187,7 +1187,7 @@
             <profile name="Dire Wolf Ardex Mega-Bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ec1b-efdb-7043-bc2a">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">25</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">20</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
@@ -1315,62 +1315,193 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Suzerain Class Plasma Destructor" hidden="false" id="2064-7f80-b0f2-5974">
+        <selectionEntry type="upgrade" import="true" name="Arm Weapons" hidden="false" id="cc45-b564-03e5-7146">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Suzerain Class Plasma Destructor" hidden="false" id="3267-cab7-d3fd-d5a1">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d9be-994f-54aa-b982"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a800-0977-d935-65e8"/>
+              </constraints>
+              <profiles>
+                <profile name="➤ Suzerain Class Plasma Destructor - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="451b-937b-c997-a64d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">8</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="➤ Suzerain Class Plasma Destructor - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ae2a-5d1b-7585-175a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+9</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">12</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" id="c54e-8faa-e42f-0408" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Hazardous" id="58b1-804c-a019-c974" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Krius Graviton Imploder" hidden="false" id="bf7c-7c6b-1a5e-d06a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c46c-c434-331a-1760"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce48-5a5c-4edd-fdb9"/>
+              </constraints>
+              <profiles>
+                <profile name="Krius Graviton Imploder - Contained" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6a6e-2c1d-1295-f97a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D3+1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">26</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-5</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+4</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                  </characteristics>
+                </profile>
+                <profile name="Krius Graviton Imploder - Singularity" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9558-cdb5-77db-ba7f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D3+1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">26</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-5</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">10</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Anti-Titanic 4+, Devastating Wounds, Hazardous</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Warmaster Titan Fists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="dbf0-8c74-3128-4956">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">20</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2D6+5</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="1e81-cdf6-92b7-f71b" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Devastating Wounds" id="fb45-50e1-c2f1-5c90" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                <infoLink name="Hazardous" id="6f81-4953-12f8-f021" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                <infoLink name="Blast" id="6d7d-fb4b-9821-ccfb" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Desolator Chainsword" hidden="false" id="7557-aa36-6269-a33b">
+              <profiles>
+                <profile name="Desolator Chainsword - Strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="307b-9472-b93a-2f85">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">20</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">15</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+                <profile name="Desolator Chainsword - Sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a666-a254-dcce-67c8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">18</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">7</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="633d-f8db-829c-f791"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Krius Siege Drill" hidden="false" id="5f49-d34a-4038-b803">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6139-e626-041c-99b3"/>
+              </constraints>
+              <profiles>
+                <profile name="Krius Siege Drill" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e7c5-cbf5-ecd2-7c46">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">28</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">5D6+10</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Titanic 3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="4371-1a10-0b28-3d6e" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="83af-fac4-36b4-1dac"/>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6ba5-e0ce-edae-2e48"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a6b2-4c15-0a95-d6cc"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8b92-1671-c949-d7a9"/>
           </constraints>
-          <profiles>
-            <profile name="➤ Suzerain Class Plasma Destructor - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="aae6-bd3d-a973-d70a">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+6</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">8</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="➤ Suzerain Class Plasma Destructor - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2011-5c15-9afc-87a3">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+9</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">12</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Blast" id="af8c-df1e-7bc6-c4b7" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-            <infoLink name="Hazardous" id="888a-8e34-f111-4202" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-          </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Revelator Missile Launcher" hidden="false" id="af5c-ade6-46d5-eca5">
-          <profiles>
-            <profile name="Revelator Missile Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b022-7586-2d90-41b5">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">200&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3+3</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-6</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-VEHICLE 4+, Indirect Fire, Devastating Wounds</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Anti-" id="d05c-1300-45a9-57e4" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-            <infoLink name="Indirect Fire" id="429e-59f9-0cb2-3434" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
-            <infoLink name="Devastating Wounds" id="3e60-b775-9ffa-ae72" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-          </infoLinks>
+        <selectionEntry type="upgrade" import="true" name="Middle Carapace Weapon" hidden="false" id="86d9-8d8e-0a91-8b95">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Revelator Missile Launcher" hidden="false" id="d280-f1b4-2e02-73e9">
+              <profiles>
+                <profile name="Revelator Missile Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4aaf-1afe-e837-b4fb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">200&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3+3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-6</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-VEHICLE 4+, Indirect Fire, Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="2e61-62d5-380d-86c8" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Indirect Fire" id="7dec-4f56-7e0d-5b99" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
+                <infoLink name="Devastating Wounds" id="68e9-4291-95ab-1a44" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae20-35d0-c7d5-214c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70af-decd-e05f-21e4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cruciator Gatling Array" hidden="false" id="bc7d-75d2-091f-5b81">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca1d-20c9-bca0-b417"/>
+              </constraints>
+              <profiles>
+                <profile name="Cruciator Gatling Array" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="419f-acc0-44f0-5a65">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">40</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e684-01a4-aa70-2e12"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74b4-f8da-cdc9-c828"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f089-eeab-1318-accd"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89d3-42c1-3f0d-f3f0"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
